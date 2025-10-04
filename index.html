@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>brand Products - Online Shopping</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f1c40f;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 200px;
+      margin: 15px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .product h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .product p {
+      color: #555;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 12px;
+      margin-top: 10px;
+      background: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #219150;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Brand Products</h1>
+    <p>Your one-stop online shopping store</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Deals</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="product">
+      <img src="smart  phone.png" alt="Product 1">
+      <h3>Smartphone</h3>
+      <p>₹49,999</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="headphone.png" alt="Product 2">
+      <h3>Headphones</h3>
+      <p>₹1,999</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="laptop.png" alt="Product 3">
+      <h3>Laptop</h3>
+      <p>₹45,000</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="smartwatch.png" alt="Product 4">
+      <h3>Smartwatch</h3>
+      <p>₹3,499</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
